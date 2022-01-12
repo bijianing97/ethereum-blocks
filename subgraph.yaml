@@ -1,6 +1,6 @@
 specVersion: 0.0.2
 description: Indexing all Ethereum Block data
-repository: https://github.com/blocklytics/ethereum-blocks
+repository: https://github.com/bijianing97/ethereum-blocks
 schema:
   file: ./schema.graphql
 dataSources:
@@ -8,7 +8,7 @@ dataSources:
     name: ConverterRegistryContract
     network: rinkeby
     source:
-      address: "0x0ddff327ddf7fe838e3e63d02001ef23ad1ede8e"
+      address: "0x2409c7c22bD859BFD75E046fa64Dd7BE53fCd5ac"
       abi: ConverterRegistryContract
     mapping:
       kind: ethereum/events
